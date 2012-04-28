@@ -80,6 +80,11 @@ GEM
     rake (0.9.2.2)
     rdoc (3.12)
       json (~> 1.4)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    rhoconnect-rb (0.3.1)
+      json (>= 1.4.6)
+      rest-client (~> 1.6.1)
     sass (3.1.16)
     sass-rails (3.2.5)
       railties (~> 3.2.0)
@@ -108,5 +113,6 @@ DEPENDENCIES
   json
   pg
   rails (= 3.2.3)
+  rhoconnect-rb
   sass-rails (~> 3.2.3)
   uglifier (>= 1.0.3)

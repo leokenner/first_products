@@ -9,6 +9,8 @@ gem 'pg'
 
 gem 'json'
 
+gem 'rhoconnect-rb'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
